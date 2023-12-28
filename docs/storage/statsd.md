@@ -5,14 +5,14 @@ cAdvisor supports exporting stats to [statsd](https://github.com/etsy/statsd). T
 Set the storage driver as statsd.
 
 ```
- -storage_driver=statsd
+ --storage_driver=statsd
 ```
 
 Specify what statsd instance to push data to:
 
 ```
  # The *ip:port* of the instance. Default is 'localhost:8086'
- -storage_driver_host=ip:port
+ --storage_driver_host=ip:port
 ```
 
 # Examples
